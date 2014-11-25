@@ -13,6 +13,10 @@
 		B829971F1A23E43500B07251 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B829971E1A23E43500B07251 /* Images.xcassets */; };
 		B82997221A23E43500B07251 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B82997201A23E43500B07251 /* LaunchScreen.xib */; };
 		B829972E1A23E43500B07251 /* MyShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829972D1A23E43500B07251 /* MyShoppingTests.swift */; };
+		B82997381A24418F00B07251 /* Model.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82997371A24418F00B07251 /* Model.xcassets */; };
+		B829973A1A2441E700B07251 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82997391A2441E700B07251 /* Shopping.swift */; };
+		B829973C1A24426500B07251 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829973B1A24426500B07251 /* Item.swift */; };
+		B829973E1A24429800B07251 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B829973D1A24429800B07251 /* ShoppingList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		B82997271A23E43500B07251 /* MyShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B829972C1A23E43500B07251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B829972D1A23E43500B07251 /* MyShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShoppingTests.swift; sourceTree = "<group>"; };
+		B82997371A24418F00B07251 /* Model.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Model.xcassets; sourceTree = "<group>"; };
+		B82997391A2441E700B07251 /* Shopping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shopping.swift; path = Model.xcassets/Shopping.swift; sourceTree = "<group>"; };
+		B829973B1A24426500B07251 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Model.xcassets/Item.swift; sourceTree = "<group>"; };
+		B829973D1A24429800B07251 /* ShoppingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingList.swift; path = Model.xcassets/ShoppingList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				B829971E1A23E43500B07251 /* Images.xcassets */,
 				B82997201A23E43500B07251 /* LaunchScreen.xib */,
 				B82997151A23E43500B07251 /* Supporting Files */,
+				B82997371A24418F00B07251 /* Model.xcassets */,
+				B829973D1A24429800B07251 /* ShoppingList.swift */,
+				B829973B1A24426500B07251 /* Item.swift */,
+				B82997391A2441E700B07251 /* Shopping.swift */,
 			);
 			path = MyShopping;
 			sourceTree = "<group>";
@@ -195,6 +207,7 @@
 				B829971D1A23E43500B07251 /* Main.storyboard in Resources */,
 				B82997221A23E43500B07251 /* LaunchScreen.xib in Resources */,
 				B829971F1A23E43500B07251 /* Images.xcassets in Resources */,
+				B82997381A24418F00B07251 /* Model.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B829973C1A24426500B07251 /* Item.swift in Sources */,
 				B829971A1A23E43500B07251 /* ViewController.swift in Sources */,
+				B829973E1A24429800B07251 /* ShoppingList.swift in Sources */,
+				B829973A1A2441E700B07251 /* Shopping.swift in Sources */,
 				B82997181A23E43500B07251 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
